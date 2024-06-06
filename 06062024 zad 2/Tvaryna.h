@@ -3,9 +3,11 @@
 #define TVARYNA_H
 
 #include "istota.h"
+#include <string>
+using namespace std;
 
 class Tvaryna : public Istota {
-private:
+protected:
     string vid;
     string rid;
     double vaga;

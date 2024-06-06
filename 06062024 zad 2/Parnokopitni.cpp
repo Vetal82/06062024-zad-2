@@ -4,5 +4,5 @@ using namespace std;
 
 void Parokopitni::showInfo() {
     setlocale(LC_ALL, "Ukr");
-    cout << "Парнокопитні: " << nazva << ", Середовище існування: " << seredovyshche_zhyttia << endl;
+    cout << "Парнокопитні: " << nazva << "Вид :" << vid << "Рід :" << rid <<"Вага :" << vaga << "Середовище існування : " << seredovyshche_zhyttia << endl;
 }

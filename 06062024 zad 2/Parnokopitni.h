@@ -1,16 +1,18 @@
 #pragma once
 #ifndef PAROKOPITNI_H
 #define PAROKOPITNI_H
+
+
+#include "Tvaryna.h"
+#include <string>
 using namespace std;
 
-#include "Istota.h"
-
-class Parokopitni : public Istota {
-private:
+class Parokopitni : public Tvaryna {
+protected:
     string seredovyshche_zhyttia;
 
 public:
-    Parokopitni(string n, string sz) : Istota(n), seredovyshche_zhyttia(sz) {}
+    Parokopitni(string n, string sz, string v, string r, double w) : Tvaryna(n, v, r, w) { seredovyshche_zhyttia = sz; }
     void showInfo();
 };
 

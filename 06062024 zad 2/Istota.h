@@ -13,7 +13,7 @@ protected:
 public:
     Istota();
     Istota(string n) : nazva(n) {}
-    virtual void showInfo() = 0;
+    void showInfo();
 };
 
 #endif // ISTOTA_H

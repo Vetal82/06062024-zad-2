@@ -6,7 +6,7 @@
 #include "tvaryna.h"
 
 int main() {
-    Parokopitni p1("Кінь", "Ліс");
+    Parokopitni p1("Кінь", "Ліс", "Кінь дикий","Кінь", 300.0);
     Ptakhi p2("Орел", true);
     Tvaryna t1("Вовк", "Хижак", "Canis lupus", 30.0);
 
